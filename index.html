@@ -29,41 +29,83 @@
     <style type="text/css">
       .pic {
       margin: 0% 11%;
-      height: 220px;
-      background: url('./styles/sky.jpg') 0% 34%;
+      height: 280px;
+      background: url('./styles/sky.jpg') 0% 65%;
+
       background-size:100%;
       background-repeat:no-repeat;
       border-radius: 0px;
     }
+    section.jumbotron{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    html {scroll-padding-top: 70px}
+/*    body { padding-top: 70px; }*/
+    /*@media screen and (max-width: 768px) {
+    html { scroll-padding-top: 0px; }
+    }*/
+    
     </style>
   </head>
 
   <body>
 
+      <nav id="navbar-example" class="navbar navbar-expand-sm fixed-top justify-content-center navbar-light bg-light px-3">
+        <a class="navbar-brand" href="#">Songgaojun Deng</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#News">News</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#Services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Teaching">Teaching and Supervision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </nav> 
+      
 
-    <main role="main">
       <div class="pic text-right">
           <!-- <p class="badge bg-white text-wrap">Adventure, discover and progress</p> -->
-        </div>
+      </div>
       <section class="jumbotron text-center">
-        
-
         <div class="container">
-          <h1 class="jumbotron-heading">Songgaojun (Amy) Deng</h1>
+          <h2 class="jumbotron-heading" id="Home">Songgaojun (Amy) Deng</h2>
           <hr>
           <p class="lead">I am a Postdoc Researcher in the <a href="https://icai.ai/airlab/">AIRLab</a> at the University of Amsterdam, work with Prof. <a href="https://staff.fnwi.uva.nl/m.derijke/">Maarten de Rijke</a> and Prof. <a href="https://ssc.io/">Sebastian Schelter</a>.</p>
           <p class="lead">I received my PhD in Computer Science from <a href="https://www.stevens.edu/">Stevens Institute of Technology</a> in 2022, supervised by Prof. <a href="http://people.cs.vt.edu/yning/">Yue Ning</a>. 
          </p>
-          <p class="lead"> My research interests include machine learning and data mining.</p>
+          <!-- <p class="lead"> My research interests include machine learning and data mining.</p> -->
+          <!-- My research interests include Machine learning and data mining motivated by real-world problems in social, health informatics and e-commerce; domain generalization in time series. My research focuses on enhancing the interpretability and trustworthiness of predictive models. -->
           <hr>
+          <p class=""><a href="https://scholar.google.com/citations?user=RtzagbgAAAAJ&hl=en">Google Scholar</a> | <a href="https://dblp.org/pid/241/4844.html">DBLP</a> | <a href="https://github.com/songgaojundeng/">Github</a> | <a href="https://www.linkedin.com/in/songgaojun-d-4056a317b/">LinkedIn</a> | <a href="CV_sdeng_website.pdf">CV</a></p>
         </div>
       </section>
 
-      <div class="album py-5 bg-gray">
+      <div class="album py-4 bg-light">
         <div class="container">
-
           <div class="row">
-         
+            <div class="container">
+              <h4 class="jumbotron-heading text-uppercase">Research interests</h4>
+              <p class="">Machine learning and data mining motivated by real-world problems in social, health informatics and e-commerce; domain generalization in time series. My research focuses on enhancing the interpretability and trustworthiness of predictive models.</p>
+            </div>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="album py-4 bg-gray">
+        <div class="container">
+          <div class="row">
             <div class="container">
               <h4 class="jumbotron-heading text-uppercase">Publications</h4>
               <p class="">A list of my publications is available on <a href="https://scholar.google.com/citations?user=RtzagbgAAAAJ&hl=en">Google Scholar</a>.</p>
@@ -71,74 +113,134 @@
             <hr>
           </div>
         </div>
-
       </div>
 
-      <div class="album py-5 bg-light">
+      <div class="album py-4 bg-light">
         <div class="container">
 
           <div class="row">
          
             <div class="container">
-              <h4 class="jumbotron-heading text-uppercase">News</h4>
-              <p class="">
-        01/2023  &nbsp I join AIRLab as a Postdoc Researcher. <br/>
-        08/2022  &nbsp One paper accepted by ICDM 2022. <br/>
-        07/2022  &nbsp Passed Ph.D. Dissertation Defense. Thanks to all committee members! <br/>
-        06/2022  &nbsp One paper accepted by KDD 2022. <br/>
-        05/2022  &nbsp 2022 Recipient of the Excellence in Graduate Research at Stevens. <br/>
-        08/2021  &nbsp One paper accepted by CIKM 2021. <br/>
-        05/2021  &nbsp Received Stevens Excellence Doctoral Fellowship. <br/>
-        04/2021  &nbsp Passed Ph.D. Dissertation Proposal Defense. Many thanks to all committee members. <br/>
-        07/2020  &nbsp One paper accepted by CIKM 2020. <br/>
-        06/2020  &nbsp I joined Yahoo Research as a summer intern!  <br/>
-        06/2019  &nbsp Received KDD 2020 student travel award.  <br/>
-        06/2020  &nbsp One paper accepted by KDD 2020. <br/>
-        09/2019  &nbsp Received Women in Machine Learning (WiML @ NeurIPS 2019) travel grant.  <br/>
-        05/2019  &nbsp Successfully passed my PhD Qualifying Exam (Oral Part). Officially a Ph.D. candidate! <br/>
-        05/2019  &nbsp Received KDD 2019 student travel award.  <br/>
-        04/2019  &nbsp First paper accepted by KDD 2019.<br/>
-        04/2019  &nbsp Received a travel grant to attend CRA Women in Computing Workshop. <br/>
-        12/2018  &nbsp Successfully passed my PhD Qualifying Exam (Written Part).<br/>
-        08/2018  &nbsp I will come to Stevens in Fall as a Ph.D. student.<br/>
-              </p>
+              <h4 class="jumbotron-heading text-uppercase" id="News">News</h4>
+
+              <ul>
+                <li>10/2023  &nbsp;&nbsp;&nbsp;&nbsp; Paper on Graph Contrastive Learning was accepted by <a href="https://www.springer.com/journal/10115">KAIS</a>.</li>
+                <li>01/2023  &nbsp;&nbsp;&nbsp;&nbsp; I join <a href="https://icai.ai/airlab/">AIRLab</a> as a Postdoc Researcher.</li>
+                <li>08/2022  &nbsp;&nbsp;&nbsp;&nbsp; Paper on causality enhanced societal event forecasting was accepted by <a href="https://icdm22.cse.usf.edu/">ICDM 2022</a>.</li>
+                <li>07/2022  &nbsp;&nbsp;&nbsp;&nbsp; Passed Ph.D. Dissertation Defense. Thanks to all committee members! </li>
+                <li>06/2022  &nbsp;&nbsp;&nbsp;&nbsp; Paper on causal event analysis was accepted by <a href="https://kdd.org/kdd2022/">KDD 2022</a>. </li>
+                <li>05/2022  &nbsp;&nbsp;&nbsp;&nbsp; 2022 Recipient of the Excellence in Graduate Research at Stevens.</li>
+                <li>08/2021  &nbsp;&nbsp;&nbsp;&nbsp; Paper on interpretable event prediction was accepted by <a href="https://www.cikm2021.org/">CIKM 2021</a>.</li>
+                <li>05/2021  &nbsp;&nbsp;&nbsp;&nbsp; Received Stevens Excellence Doctoral Fellowship.</li>
+                <li>04/2021  &nbsp;&nbsp;&nbsp;&nbsp; Passed Ph.D. Dissertation Proposal Defense. Many thanks to all committee members.</li>
+                <li>07/2020  &nbsp;&nbsp;&nbsp;&nbsp; Paper on predicting long-term influenza-like illness cases was accepted by <a href="https://www.cikm2020.org/">CIKM 2020</a>. </li>
+                <li>06/2020  &nbsp;&nbsp;&nbsp;&nbsp; I joined Targeting Science team at Yahoo Research as a summer intern! </li>
+                <li>06/2019  &nbsp;&nbsp;&nbsp;&nbsp; Received KDD 2020 student travel award. </li>
+                <li>06/2020  &nbsp;&nbsp;&nbsp;&nbsp; Paper on dynamic knowledge graph based multi-event forecasting was accepted by <a href="https://kdd.org/kdd2020/">KDD 2020</a>.</li>
+                <li>09/2019  &nbsp;&nbsp;&nbsp;&nbsp; Received Women in Machine Learning (<a href="https://wimlworkshop.org/2019/">WiML @ NeurIPS 2019</a>) travel grant. </li>
+                <li>05/2019  &nbsp;&nbsp;&nbsp;&nbsp; Successfully passed my PhD Qualifying Exam (Oral Part). Officially a Ph.D. candidate! </li>
+                <li>05/2019  &nbsp;&nbsp;&nbsp;&nbsp; Received KDD 2019 student travel award. </li>
+                <li>04/2019  &nbsp;&nbsp;&nbsp;&nbsp; First paper on modeling dynamic event context graphs was accepted by <a href="https://kdd.org/kdd2019/">KDD 2019</a>.</li>
+                <li>04/2019  &nbsp;&nbsp;&nbsp;&nbsp; Received a travel grant to attend <a href="https://cra.org/cra-wp/events/grad-cohort-2019/">CRA Women in Computing Workshop</a>.</li>
+                <li>12/2018  &nbsp;&nbsp;&nbsp;&nbsp; Successfully passed my PhD Qualifying Exam (Written Part).</li>
+                <li>08/2018  &nbsp;&nbsp;&nbsp;&nbsp; I will come to Stevens in Fall as a Ph.D. student.</li>
+              </ul>
             </div>
             <hr>
           </div>
         </div>
       </div>
 
-<!--       <div class="album py-5 bg-light">
+      <div class="album py-4 bg-gray">
         <div class="container">
 
           <div class="row">
          
             <div class="container">
-              <h4 class="jumbotron-heading text-uppercase">Services</h4>
-              <p class=""><b>Conference reviewer</b>:<br>
-              AAAI, CIKM</p>
-              <p class=""><b>Journal reviewer</b>:<br>
-              World Wide Web, ACM TIST, IEEE Transactions on Image Processing, Expert Systems with Applications, Cybernetics and Systems</p>
-              <p class=""><b>Volunteering</b>:<br>
-              KDD</p>
-              
+              <h4 class="jumbotron-heading text-uppercase" id="Services">Services</h4>
+              <ul>
+                <li><b>Tutorial organizer</b>: 
+                  <ul>
+                    <li>Out-of-Distribution Generalization in Time Series at AAAI 2024 (To appear)</li>
+                    <li><a href="https://yue-ning.github.io/aaai-21-tutorial.html">Explainable AI for Societal Event Predictions: Foundations, Methods, and Applications</a> at AAAI 2021</li>
+
+                  </ul>
+                  
+                </li>
+                <li><b>Program chair member</b>: AAAI(2022--2024), CIKM(2022), LoG(2022, 2023), SIGIR ICTIR(2023)</li>
+                <li><b>Journal reviewer</b>: IEEE TNNLS, JMLR, IEEE TIP, IEEE TPAMI, Cybernetics and Systems, ACM TIST, ACM TOIS, Expert Systems with Applications, International Journal of Digital Earth, PeerJ</li>
+                <li><b>Subreviewer</b>: CIKM(2023), SIGIR(2023), BioKDD(2022), WiML@NeurIPS(2020), SDM(2018)</li>
+                <li><b>Volunteer</b>: KDD(2019,2020)</li>
+              </ul>
             </div>
             <hr>
           </div>
         </div>
 
-      </div> -->
-
-      <div class="album py-5 bg-gray">
+      </div>
+      
+      <div class="album py-4 bg-light">
         <div class="container">
 
           <div class="row">
          
             <div class="container">
-              <h4 class="jumbotron-heading text-uppercase">Contact</h4>
+              <h4 class="jumbotron-heading text-uppercase" id="Teaching">Teaching and Supervision</h4>
+              <h5 class="">Teaching</h5>
+              <ul>
+              <li>Recommender Systems (June 2023) – MSc Artificial Intelligence</li>
+                <ul>
+                  <!-- <li>Lecturer</li> -->
+                  <li>University of Amsterdam, Amsterdam, The Netherlands</li>
+                  <li>Developed and delivered lectures, guided students in reproducing recommendation methods, and conducted assessments.</li>
+                </ul>
+
+              <li>CS 584: Natural Language Processing (Fall 2019)</li>
+                <ul>
+                  <li>Department of Computer Science, Stevens Institute of Technology</li>
+                  <li>Prepared teaching materials such as lecture slides.</li>
+                </ul>
+            </ul>
+
+            <h5 class="">Supervision</h5>
+              <ul>
+              <li>Daniel Uyterlinde (BSc., March 2023 – June 2023), University of Amsterdam</li>
+              <ul>
+                <li><i>Thesis</i>: Improving generalization ability of Transformer models in time series forecasting</li>
+              </ul>
+
+              <li>Alihan Ince (BSc., March 2023 – June 2023), University of Amsterdam</li>
+              <ul>
+                <li><i>Thesis</i>: Enhancing Air Quality Prediction through Transfer Learning and Model Adaptation: Leveraging LSTM and TCN Models</li>
+              </ul>
+
+              <li>Taiki Lazos (BSc., March 2023 – June 2023), University of Amsterdam</li>
+              <ul>
+                <li><i>Thesis</i>: Integrating Crude Oil Price for Improved Stock Price Forecasting on Oil Companies using LSTM</li>
+              </ul>
+
+              <li>Enes Doğan (BSc., March 2023 – June 2023), University of Amsterdam</li>
+              <ul>
+                <li><i>Thesis</i>: Time Series Forecasting of Biobridge Strain: A Deep Learning Approach with LSTM Models</li>
+              </ul>
+              </ul>
+            </div>
+            <hr>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="album py-4 bg-gray">
+        <div class="container">
+
+          <div class="row">
+         
+            <div class="container">
+              <h4 class="jumbotron-heading text-uppercase" id="Contact">Contact</h4>
               <p class=""><b>Address</b>:
               <br>
-              L5.62<br/>
+              L5.48<br/>
               Science Park 900, 
               Amsterdam, Netherlands<br/>
               1098 XH, Amsterdam</p>
@@ -151,15 +253,14 @@
           </div>
         </div>
 
-      </div>
+      <!-- </div> -->
+    </div>
 
-
-    </main>
 
     <footer class="text-muted">
       <div class="container text-center">
         <p>
-        © 2023 Songgaojun Deng
+        © 2023 Copyright Songgaojun Deng. Last updated: November 19, 2023
       </p>
       </div>
     </footer>
