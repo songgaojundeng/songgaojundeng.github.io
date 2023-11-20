@@ -36,6 +36,12 @@
       background-repeat:no-repeat;
       border-radius: 0px;
     }
+    #scrollable-list{
+      height: 240px;
+/*      line-height:1.428571429em;*/
+      overflow:auto;
+/*      padding:5px;*/
+    }
     section.jumbotron{
       padding-top: 20px;
       padding-bottom: 20px;
@@ -55,19 +61,19 @@
         <a class="navbar-brand" href="#">Songgaojun Deng</a>
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#" style="color: dimgray;">Home</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="#News">News</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="#Services">Services</a>
+            <a class="nav-link" href="#Services" style="color: dimgray;">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Teaching">Teaching and Supervision</a>
+            <a class="nav-link" href="#Teaching" style="color: dimgray;">Teaching and Supervision</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Contact">Contact</a>
+            <a class="nav-link" href="#Contact" style="color: dimgray;">Contact</a>
           </li>
         </ul>
       </nav> 
@@ -122,28 +128,27 @@
          
             <div class="container">
               <h4 class="jumbotron-heading text-uppercase" id="News">News</h4>
-
-              <ul>
-                <li>10/2023  &nbsp;&nbsp;&nbsp;&nbsp; Paper on Graph Contrastive Learning was accepted by <a href="https://www.springer.com/journal/10115">KAIS</a>.</li>
-                <li>01/2023  &nbsp;&nbsp;&nbsp;&nbsp; I join <a href="https://icai.ai/airlab/">AIRLab</a> as a Postdoc Researcher.</li>
-                <li>08/2022  &nbsp;&nbsp;&nbsp;&nbsp; Paper on causality enhanced societal event forecasting was accepted by <a href="https://icdm22.cse.usf.edu/">ICDM 2022</a>.</li>
-                <li>07/2022  &nbsp;&nbsp;&nbsp;&nbsp; Passed Ph.D. Dissertation Defense. Thanks to all committee members! </li>
-                <li>06/2022  &nbsp;&nbsp;&nbsp;&nbsp; Paper on causal event analysis was accepted by <a href="https://kdd.org/kdd2022/">KDD 2022</a>. </li>
-                <li>05/2022  &nbsp;&nbsp;&nbsp;&nbsp; 2022 Recipient of the Excellence in Graduate Research at Stevens.</li>
-                <li>08/2021  &nbsp;&nbsp;&nbsp;&nbsp; Paper on interpretable event prediction was accepted by <a href="https://www.cikm2021.org/">CIKM 2021</a>.</li>
-                <li>05/2021  &nbsp;&nbsp;&nbsp;&nbsp; Received Stevens Excellence Doctoral Fellowship.</li>
-                <li>04/2021  &nbsp;&nbsp;&nbsp;&nbsp; Passed Ph.D. Dissertation Proposal Defense. Many thanks to all committee members.</li>
-                <li>07/2020  &nbsp;&nbsp;&nbsp;&nbsp; Paper on predicting long-term influenza-like illness cases was accepted by <a href="https://www.cikm2020.org/">CIKM 2020</a>. </li>
-                <li>06/2020  &nbsp;&nbsp;&nbsp;&nbsp; I joined Targeting Science team at Yahoo Research as a summer intern! </li>
-                <li>06/2019  &nbsp;&nbsp;&nbsp;&nbsp; Received KDD 2020 student travel award. </li>
-                <li>06/2020  &nbsp;&nbsp;&nbsp;&nbsp; Paper on dynamic knowledge graph based multi-event forecasting was accepted by <a href="https://kdd.org/kdd2020/">KDD 2020</a>.</li>
-                <li>09/2019  &nbsp;&nbsp;&nbsp;&nbsp; Received Women in Machine Learning (<a href="https://wimlworkshop.org/2019/">WiML @ NeurIPS 2019</a>) travel grant. </li>
-                <li>05/2019  &nbsp;&nbsp;&nbsp;&nbsp; Successfully passed my PhD Qualifying Exam (Oral Part). Officially a Ph.D. candidate! </li>
-                <li>05/2019  &nbsp;&nbsp;&nbsp;&nbsp; Received KDD 2019 student travel award. </li>
-                <li>04/2019  &nbsp;&nbsp;&nbsp;&nbsp; First paper on modeling dynamic event context graphs was accepted by <a href="https://kdd.org/kdd2019/">KDD 2019</a>.</li>
-                <li>04/2019  &nbsp;&nbsp;&nbsp;&nbsp; Received a travel grant to attend <a href="https://cra.org/cra-wp/events/grad-cohort-2019/">CRA Women in Computing Workshop</a>.</li>
-                <li>12/2018  &nbsp;&nbsp;&nbsp;&nbsp; Successfully passed my PhD Qualifying Exam (Written Part).</li>
-                <li>08/2018  &nbsp;&nbsp;&nbsp;&nbsp; I will come to Stevens in Fall as a Ph.D. student.</li>
+              <ul id="scrollable-list">  
+                <li>10/2023  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paper on Graph Contrastive Learning was accepted by <a href="https://www.springer.com/journal/10115">KAIS</a>.</li>
+                <li>01/2023  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I join <a href="https://icai.ai/airlab/">AIRLab</a>, <a href="https://www.uva.nl/en">University of Amsterdam</a> as a Postdoc Researcher.</li>
+                <li>08/2022  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paper on causality enhanced societal event forecasting was accepted by <a href="https://icdm22.cse.usf.edu/">ICDM 2022</a>.</li>
+                <li>07/2022  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Passed Ph.D. Dissertation Defense. Thanks to all committee members! </li>
+                <li>06/2022  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paper on causal event analysis was accepted by <a href="https://kdd.org/kdd2022/">KDD 2022</a>. </li>
+                <li>05/2022  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2022 Recipient of the Excellence in Graduate Research at Stevens.</li>
+                <li>08/2021  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paper on interpretable event prediction was accepted by <a href="https://www.cikm2021.org/">CIKM 2021</a>.</li>
+                <li>05/2021  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Received Stevens Excellence Doctoral Fellowship.</li>
+                <li>04/2021  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Passed Ph.D. Dissertation Proposal Defense. Many thanks to all committee members.</li>
+                <li>07/2020  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paper on predicting long-term influenza-like illness cases was accepted by <a href="https://www.cikm2020.org/">CIKM 2020</a>. </li>
+                <li>06/2020  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I joined Targeting Science team at Yahoo Research as a summer intern! </li>
+                <li>06/2019  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Received KDD 2020 student travel award. </li>
+                <li>06/2020  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Paper on dynamic knowledge graph based multi-event forecasting was accepted by <a href="https://kdd.org/kdd2020/">KDD 2020</a>.</li>
+                <li>09/2019  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Received Women in Machine Learning (<a href="https://wimlworkshop.org/2019/">WiML @ NeurIPS 2019</a>) travel grant. </li>
+                <li>05/2019  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Successfully passed my PhD Qualifying Exam (Oral Part). Officially a Ph.D. candidate! </li>
+                <li>05/2019  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Received KDD 2019 student travel award. </li>
+                <li>04/2019  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First paper on modeling dynamic event context graphs was accepted by <a href="https://kdd.org/kdd2019/">KDD 2019</a>.</li>
+                <li>04/2019  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Received a travel grant to attend <a href="https://cra.org/cra-wp/events/grad-cohort-2019/">CRA Women in Computing Workshop</a>.</li>
+                <li>12/2018  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Successfully passed my PhD Qualifying Exam (Written Part).</li>
+                <li>08/2018  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I will come to Stevens in Fall as a Ph.D. student.</li>
               </ul>
             </div>
             <hr>
